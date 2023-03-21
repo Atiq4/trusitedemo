@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/trudemo" mode="merge"/>
+    <filter root="/content/trudemo" mode="merge"/>
+    <filter root="/content/dam/trudemo" mode="merge">
+        <exclude pattern="/content/dam/trudemo(/.*)?"/>
+        <include pattern="/content/dam/trudemo/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/trudemo/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/trudemo" mode="merge"/>
+</workspaceFilter>
